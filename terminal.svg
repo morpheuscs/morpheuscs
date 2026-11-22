@@ -1,21 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="270" viewBox="0 0 760 270">
+  <style>
+    .line {
+      font-family: "JetBrains Mono", Consolas, monospace;
+      font-size: 13.5px;
+      white-space: pre;
+      overflow: hidden;
+      clip-path: inset(0 100% 0 0);
+    }
+    .l1 { animation: type 1.2s steps(40, end) 0.2s forwards; }
+    .l2 { animation: type 1.0s steps(45, end) 1.5s forwards; }
+    .l3 { animation: type 1.4s steps(52, end) 2.7s forwards; }
+    .l4 { animation: type 1.0s steps(44, end) 4.2s forwards; }
+    .l5 { animation: type 1.4s steps(52, end) 5.4s forwards; }
+    .l6 { animation: type 1.0s steps(40, end) 6.9s forwards; }
+    .l7 { animation: type 1.4s steps(54, end) 8.1s forwards; }
+    .l8 { animation: type 0.8s steps(36, end) 9.6s forwards; }
+    @keyframes type {
+      from { clip-path: inset(0 100% 0 0); }
+      to   { clip-path: inset(0 0 0 0); }
+    }
+  </style>
+
   <rect width="760" height="270" rx="8" fill="#000000" stroke="#1e293b" stroke-width="1.5"/>
   <path d="M 0 8 Q 0 0 8 0 L 752 0 Q 760 0 760 8 L 760 32 L 0 32 Z" fill="#161b22"/>
   <text x="16" y="21" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="700" fill="#00e5ff">┌──(root㉿morpheuscs)-[~]</text>
   <line x1="704" y1="18" x2="714" y2="18" stroke="#94a3b8" stroke-width="1.5"/>
   <rect x="724" y="12" width="10" height="10" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
   <path d="M 744 12 L 754 22 M 754 12 L 744 22" stroke="#ef4444" stroke-width="1.8"/>
-  <text x="28" y="64" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="#e2e8f0" xml:space="preserve">
-    <tspan x="28" dy="0"><tspan fill="#00e5ff">"type"</tspan>: <tspan fill="#10b981">"hard skills"</tspan>,</tspan>
-    <tspan x="28" dy="22"><tspan fill="#00e5ff">"categories"</tspan>: [</tspan>
-    <tspan x="28" dy="22">  {</tspan>
-    <tspan x="28" dy="22">    <tspan fill="#00e5ff">"name"</tspan>: <tspan fill="#10b981">"Languages"</tspan>,</tspan>
-    <tspan x="28" dy="22">    <tspan fill="#00e5ff">"items"</tspan>: [<tspan fill="#e2e8f0">"Python", "C", "C++", "SQL", "JS", "HTML", "CSS", "Bash", "Zsh"</tspan>]</tspan>
-    <tspan x="28" dy="22">  },</tspan>
-    <tspan x="28" dy="22">  {</tspan>
-    <tspan x="28" dy="22">    <tspan fill="#00e5ff">"name"</tspan>: <tspan fill="#10b981">"Domains"</tspan>,</tspan>
-    <tspan x="28" dy="22">    <tspan fill="#00e5ff">"items"</tspan>: [<tspan fill="#ef4444">"Cybersecurity", "Network Security", "AppSec", "Systems", "Linux"</tspan>]</tspan>
-    <tspan x="28" dy="22">  }</tspan>
-    <tspan x="28" dy="22">]</tspan>
-  </text>
+
+  <text x="24" y="62" class="line l1" fill="#00e5ff">└─# whoami &amp;&amp; uname -srm</text>
+  <text x="24" y="84" class="line l2" fill="#10b981">morpheuscs // Linux 6.8.11-kali-amd64 x86_64</text>
+
+  <text x="24" y="116" class="line l3" fill="#00e5ff">└─# nmap -sS -T4 --script vuln 10.10.10.0/24</text>
+  <text x="24" y="138" class="line l4" fill="#10b981">[+] 3 hosts up | scanning open ports...</text>
+
+  <text x="24" y="170" class="line l5" fill="#00e5ff">└─# sqlmap -u "https://target/api" --dbs --batch</text>
+  <text x="24" y="192" class="line l6" fill="#ef4444">[!] injectable parameter found: id (GET)</text>
+
+  <text x="24" y="224" class="line l7" fill="#00e5ff">└─# msfconsole -q -x "use exploit/multi/handler"</text>
+  <text x="24" y="246" class="line l8" fill="#10b981">[*] Started reverse TCP handler...</text>
 </svg>
