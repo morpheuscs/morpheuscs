@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="270" viewBox="0 0 760 270">
+  <rect width="760" height="270" rx="8" fill="#000000" stroke="#1e293b" stroke-width="1.5"/>
+  <path d="M 0 8 Q 0 0 8 0 L 752 0 Q 760 0 760 8 L 760 32 L 0 32 Z" fill="#161b22"/>
+  <text x="16" y="21" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="700" fill="#00e5ff">┌──(root㉿morpheuscs)-[~]</text>
+  <line x1="704" y1="18" x2="714" y2="18" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="724" y="12" width="10" height="10" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M 744 12 L 754 22 M 754 12 L 744 22" stroke="#ef4444" stroke-width="1.8"/>
+  <text x="28" y="64" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="#e2e8f0" xml:space="preserve">
+    <tspan x="28" dy="0"><tspan fill="#00e5ff">"type"</tspan>: <tspan fill="#10b981">"hard skills"</tspan>,</tspan>
+    <tspan x="28" dy="22"><tspan fill="#00e5ff">"categories"</tspan>: [</tspan>
+    <tspan x="28" dy="22">  {</tspan>
+    <tspan x="28" dy="22">    <tspan fill="#00e5ff">"name"</tspan>: <tspan fill="#10b981">"Languages"</tspan>,</tspan>
+    <tspan x="28" dy="22">    <tspan fill="#00e5ff">"items"</tspan>: [<tspan fill="#e2e8f0">"Python", "C", "C++", "SQL", "JS", "HTML", "CSS", "Bash", "Zsh"</tspan>]</tspan>
+    <tspan x="28" dy="22">  },</tspan>
+    <tspan x="28" dy="22">  {</tspan>
+    <tspan x="28" dy="22">    <tspan fill="#00e5ff">"name"</tspan>: <tspan fill="#10b981">"Domains"</tspan>,</tspan>
+    <tspan x="28" dy="22">    <tspan fill="#00e5ff">"items"</tspan>: [<tspan fill="#ef4444">"Cybersecurity", "Network Security", "AppSec", "Systems", "Linux"</tspan>]</tspan>
+    <tspan x="28" dy="22">  }</tspan>
+    <tspan x="28" dy="22">]</tspan>
+  </text>
+</svg>
