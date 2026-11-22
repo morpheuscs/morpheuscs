@@ -7,14 +7,14 @@
       overflow: hidden;
       clip-path: inset(0 100% 0 0);
     }
-    .l1 { animation: type 1.2s steps(40, end) 0.2s forwards; }
-    .l2 { animation: type 1.0s steps(45, end) 1.5s forwards; }
-    .l3 { animation: type 1.4s steps(52, end) 2.7s forwards; }
-    .l4 { animation: type 1.0s steps(44, end) 4.2s forwards; }
-    .l5 { animation: type 1.4s steps(52, end) 5.4s forwards; }
-    .l6 { animation: type 1.0s steps(40, end) 6.9s forwards; }
-    .l7 { animation: type 1.4s steps(54, end) 8.1s forwards; }
-    .l8 { animation: type 0.8s steps(36, end) 9.6s forwards; }
+    .l1 { animation: type 1.0s steps(30, end) 0.2s forwards; }
+    .l2 { animation: type 1.2s steps(52, end) 1.3s forwards; }
+    .l3 { animation: type 1.1s steps(36, end) 2.7s forwards; }
+    .l4 { animation: type 1.3s steps(58, end) 3.9s forwards; }
+    .l5 { animation: type 1.0s steps(30, end) 5.4s forwards; }
+    .l6 { animation: type 1.3s steps(56, end) 6.5s forwards; }
+    .l7 { animation: type 1.2s steps(44, end) 8.0s forwards; }
+    .l8 { animation: type 1.2s steps(50, end) 9.3s forwards; }
     @keyframes type {
       from { clip-path: inset(0 100% 0 0); }
       to   { clip-path: inset(0 0 0 0); }
@@ -28,15 +28,15 @@
   <rect x="724" y="12" width="10" height="10" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
   <path d="M 744 12 L 754 22 M 754 12 L 744 22" stroke="#ef4444" stroke-width="1.8"/>
 
-  <text x="24" y="62" class="line l1" fill="#00e5ff">└─# whoami &amp;&amp; uname -srm</text>
-  <text x="24" y="84" class="line l2" fill="#10b981">morpheuscs // Linux 6.8.11-kali-amd64 x86_64</text>
+  <text x="24" y="62" class="line l1" fill="#00e5ff">└─# whoami &amp;&amp; id</text>
+  <text x="24" y="84" class="line l2" fill="#10b981">morpheuscs // Cybersecurity Researcher &amp; Systems Dev</text>
 
-  <text x="24" y="116" class="line l3" fill="#00e5ff">└─# nmap -sS -T4 --script vuln 10.10.10.0/24</text>
-  <text x="24" y="138" class="line l4" fill="#10b981">[+] 3 hosts up | scanning open ports...</text>
+  <text x="24" y="116" class="line l3" fill="#00e5ff">└─# cat /etc/morpheus/stack.conf</text>
+  <text x="24" y="138" class="line l4" fill="#e2e8f0">Python · C · C++ · SQL · JS · HTML · CSS · Bash · Zsh</text>
 
-  <text x="24" y="170" class="line l5" fill="#00e5ff">└─# sqlmap -u "https://target/api" --dbs --batch</text>
-  <text x="24" y="192" class="line l6" fill="#ef4444">[!] injectable parameter found: id (GET)</text>
+  <text x="24" y="170" class="line l5" fill="#00e5ff">└─# ls -la ~/focus/</text>
+  <text x="24" y="192" class="line l6" fill="#ef4444">appsec/  network-sec/  systems-c-cpp/  automation/</text>
 
-  <text x="24" y="224" class="line l7" fill="#00e5ff">└─# msfconsole -q -x "use exploit/multi/handler"</text>
-  <text x="24" y="246" class="line l8" fill="#10b981">[*] Started reverse TCP handler...</text>
+  <text x="24" y="224" class="line l7" fill="#00e5ff">└─# systemctl status morpheus.service</text>
+  <text x="24" y="246" class="line l8" fill="#10b981">● active (running) — silent. precise. untraceable.</text>
 </svg>
