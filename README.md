@@ -46,12 +46,14 @@
 
 ---
 
-### `// TELEMETRY`
+### `// CAPABILITIES`
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=morpheuscs&show_icons=true&bg_color=000000&title_color=DC2626&icon_color=DC2626&text_color=C9D1D9&border_color=21262D" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=morpheuscs&background=000000&border=21262D&stroke=DC2626&ring=DC2626&fire=DC2626&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=DC2626&sideLabels=8B949E&dates=8B949E" alt="GitHub Streak" />
-</div>
+```yaml
+[0x01] NETWORK & INFRASTRUCTURE  :: Packet Analysis · Recon · Firewalls · Linux Hardening
+[0x02] APPLICATION SECURITY      :: Web & API Auditing · Code Review · Auth Architecture
+[0x03] SYSTEMS & LOW-LEVEL       :: C / C++ · Memory Internals · Linux Process Control
+[0x04] AUTOMATION & DATA         :: Python Tooling · Bash / Zsh Pipelines · SQL Queries
+```
 
 ---
 
